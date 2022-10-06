@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/transition.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <main class="wrapper" data-aos="zoom-in">
+            <div class="main-content">
+                <div class="title-section">
+                    <h2>My Activity List</h2>
+                </div>
+                <div class="input-section">
+                    <input class="actvity-textbox" id="activity-Title" type="text" placeholder="Do you have new Activity?">
+                    <input class="date-picker" id="activity-Date" type="date">
+                </div>
+                <div class="list-section">
+                    <div class="list">
+                        <div class="my-activity" id="activity-List"></div>
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button class="add-button" onclick="addActivity()">Add Activity</button>
+                </div>
+            </div>
+        </main>
+        <script src="script/home.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init({ 
+            duration: 2000,
+            once: false,
+            });</script>
+    </body>
+</html>

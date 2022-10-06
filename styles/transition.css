@@ -1,0 +1,103 @@
+@media only screen and (min-width: 700px) {
+    body{
+        background:url(../images/bg.jpg);
+        background-size: contain;
+    }
+    .wrapper{
+        width: 800px;
+        margin: 0  auto;
+    }
+
+    .main-content{
+        border-radius: 25px;
+        width: 800px;
+        padding: 3% 0 3% 0; 
+        margin: 2% 0 0 0; 
+    }
+
+    /*Title section*/
+    .title-section h2{
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 10px;
+    }
+
+    /*Input section*/
+    .actvity-textbox{
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        width: 70%;
+    }
+
+    .date-picker[type="date"]{
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        width: 20px;
+        height: 20px;
+        padding: 2% 2%;
+    }
+    
+    /*List section*/
+    .list{
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        width: 91%;
+        height: 60.5vh;
+        padding: 2% 2%;
+    }
+
+    .my-activity1{
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 25px;
+        margin-bottom: 2%;
+        padding: 2% 2%;
+    }
+    
+    /*Button section*/
+    .add-button{
+        background-color: #324a5f;
+        border: 1px solid #324a5f;
+        border-radius: 45px;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        padding: 1.5% 5%;
+        transition: opacity 0.15s;
+    }
+
+    .add-button:hover{
+        opacity: 0.7;
+    }
+
+    .add-button:active{
+        opacity: 0.5;
+    }
+
+    .delete-button{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        height: 40px;
+        padding: 0% 5%;
+        margin-left: 6%;
+        transition: opacity 0.15s;
+    }
+
+    .delete-button:hover{
+        opacity: 0.7;
+        }
+
+    .delete-button:active{
+    opacity: 0.5;
+    }
+
+}
